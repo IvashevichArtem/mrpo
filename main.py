@@ -1,11 +1,13 @@
 from games.game_1 import lcmgame
 from games.game_2 import geometric
 
+
 def show_menu():
     print("Menu:")
     print("1. LCM Game (Least Common Multiple)")
     print("2. Geometric Progression Game")
     print("3. Exit")
+
 
 def main():
     print("Welcome to the Math Games Collection!")
@@ -26,6 +28,7 @@ def main():
             break
         else:
             print("Invalid input. Please choose 1, 2, or 3.")
+
 
 if __name__ == "__main__":
     main()

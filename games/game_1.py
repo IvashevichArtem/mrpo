@@ -1,6 +1,7 @@
 import math
 import random
 
+
 class lcmgame:
     @staticmethod
     def calculate_lcm(a, b, c):
